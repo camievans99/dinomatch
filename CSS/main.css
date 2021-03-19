@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+@font-face{
+    font-family: african;
+    src: url(../fonts/african.ttf);
+}
+
+body{
+    font-family: african;
+    background-image: url(../images/1773.jpg);
+    background-size: cover;
+    text-align: center;
+}

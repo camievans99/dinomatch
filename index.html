@@ -26,12 +26,12 @@
     <!--------------------------------- Keypad section --------------------------------->
     <section class="keypad">
         <article class="counters">
-            <div> <span class="combo" id="combo"> COMBO X 00 </span></div>
-            <div> <span class="score" id="score">PUNTOS: 0000 </span> </div>
+            <div> <span class="combo" id="combo" aria-label="Aqui se muestran los combos del juego "> COMBO X 00 </span></div>
+            <div> <span class="score" id="score" aria-label="Aqui se muestra la puntuación del juego">PUNTOS: 0000 </span> </div>
         </article>
         <article class="help-reset">
-            <i class="fas fa-info-circle"></i>
-            <i class="fas fa-redo"></i>
+            <i class="fas fa-info-circle" aria-hidden="true" id="help"></i>
+            <i class="fas fa-redo" aria-hidden="true" id="reset"></i>
         </article>
     </section>
       <!--------------------------------- game section --------------------------------->
@@ -41,7 +41,7 @@
 
       <!--------------------------------- timer section --------------------------------->
     <section class="clock-container" id="clockContainer">
-        <span class="timer" id="timer"> <i class="fas fa-stopwatch"></i> 00:00 </span>
+        <span class="timer" id="timer"> <i class="fas fa-stopwatch" aria-hidden="true"></i> 00:00 </span>
     </section>
 </body>
 </html>
